@@ -28,6 +28,34 @@ Decryption: The pixels are reordered back into their original form using the sam
 
 This makes the encryption reversible only if the same key is reused.
 
+⚙️ How to Run
+
+📦 Prerequisites
+
+Python 3.x
+
+Pillow (Python Imaging Library)
+
+Tkinter (comes pre-installed with Python)
+
+🔧 Installation
+
+pip install pillow
+
+▶️ Running the App
+
+In VS Code or terminal:
+
+python image_encryption.py
+
+A GUI will launch where you can:
+
+Browse an image to encrypt/decrypt
+
+Select where to save the output
+
+Enter a key (seed) to perform the operation
+
 
 🔐 Encryption Key
 
