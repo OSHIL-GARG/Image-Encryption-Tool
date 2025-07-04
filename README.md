@@ -1,11 +1,11 @@
-#🛡️ Image Encryption Tool – Python + Tkinter + Pillow
+#🛡️ Image Encryption Tool – Python + Tkinter + Pillow#
 
 A simple but effective GUI-based image encryption and decryption tool built using Python. 
 This tool encrypts an image by shuffling its pixels based on a seed key, and can also decrypt it using the same key.
 Perfect for demonstrating basic image manipulation and lightweight encryption techniques in a cybersecurity context.
 
 
-##💡 Features:
+##💡 Features:##
 
 🖼️ Select and encrypt/decrypt any .png or .jpg image
 
@@ -18,7 +18,7 @@ Perfect for demonstrating basic image manipulation and lightweight encryption te
 📦 Easy to run — no database or server required
 
 
-###📸 How It Works:
+###📸 How It Works:###
 
 The program uses Python’s random module with a seed key to shuffle the pixel indices of an image:
 
@@ -28,7 +28,7 @@ Decryption: The pixels are reordered back into their original form using the sam
 
 This makes the encryption reversible only if the same key is reused.
 
-####⚙️ How to Run
+####⚙️ How to Run###
 
 📦 Prerequisites
 
@@ -57,14 +57,14 @@ Select where to save the output
 Enter a key (seed) to perform the operation
 
 
-#####🔐 Encryption Key
+#####🔐 Encryption Key#####
 
 The key is any string or number (e.g., "123", "mysecret", "42").
 
 ⚠️ Make sure to use the same key for decryption, or the image cannot be recovered.4
 
 
-######📌 Sample Use Case
+######📌 Sample Use Case######
 
 This project is great for:
 
